@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a[target] {
+            color: red;
+        }
+
+        p,
+        #title,
+        .red {
+            color: red;
+        }
+
+        .blue {
+            color: blue;
+        }
+    </style>
+    <a href="#">이동</a>
+    <a href="#" target="_blank">새 창으로 이동</a>
+</head>
+
+<body>
+
+    <h1>태그 속성 선택자</h1>
+
+    <h1>자식 선택자</h1>
+    <div id="title"></div>
+    <div class="red">자식1</div>
+    <div>자식2</div>
+    <div>자식3</div>
+    <div>자식4
+        <div class="blue">손자</div>
+    </div>
+    <div class="red">외부</div>
+
+</body>
+
+</html>
